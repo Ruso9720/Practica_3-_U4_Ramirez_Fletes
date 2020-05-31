@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="REGISTRO DE JUGADORES DEL CLUB DEPORTIVO GUADALAJARA"
+        android:textColor="#FF0000"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre - Apellido Paterno"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Posicion 3 Caracteres -> DEL, POR, DFC" />
+
+    <EditText
+        android:id="@+id/precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:hint="Precio dado en Millones"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/lesiones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:hint="Describa la ultima lesion del jugador"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="20dp"
+        android:background="#1C2BBF"
+        android:text="Guardar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="cdf"
+        android:textColor="#956115"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
